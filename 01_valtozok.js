@@ -25,6 +25,10 @@ console.log(d);
 //let d = 4; //Identifier 'd' has already been declared (at 01_valtozok.js:25:5)
 //console.log(d);
 
+
+
+
+//02_valtozo_tipusok
 let e = 2;
 console.log('a=' + e + ' típusa: ' + typeof e);
 const pi = 3.14;
@@ -32,3 +36,12 @@ console.log('pi=' + pi + ' típusa: ' + typeof pi);
 
 console.log(0.1+0.2);
 console.log((0.1+0.2).toFixed(2));
+
+console.log(1/0);
+console.log(-1/0);
+console.log(0/0);
+
+let firstname = "Jane";
+let lastname = "Doe";
+console.log(firstname + ' ' + lastname);
+console.log(`Hello, ${firstname} ${lastname}!`);

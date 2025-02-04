@@ -1,0 +1,7 @@
+let e = 2;
+console.log('a=' + e + ' típusa: ' + typeof e);
+const pi = 3.14;
+console.log('pi=' + pi + ' típusa: ' + typeof pi);
+
+console.log(0.1+0.2);
+console.log((0.1+0.2).toFixed(2));

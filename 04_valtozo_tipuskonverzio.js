@@ -30,3 +30,6 @@ console.log("3.50"); //3
 console.log(Math.round(3.4999)); //4
 console.log(Math.trunc(3.21)); //3
 console.log(Math.trunc(-3.21)); //-3
+
+let input = prompt('Kérek egy számot: ', 0); 
+console.log(parseInt(input) + 6);

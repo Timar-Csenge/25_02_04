@@ -72,10 +72,3 @@ function myFunction()
 console.log(myFunction())
 //console.log(valtozo)
 console.log(valtozo2)
-
-
-"dog" + "house" == "doghouse"; // összekapcsolta a két karakterláncot
-"dog" + 4 == "dog4"; // a számot átalakította
-4 + "4" == "44"; // karakterlánccá
-4 + 4 == 8; // összeadta a két számot
-23 - "17" == 6; // a karakterláncot átalakította számmá

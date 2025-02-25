@@ -12,3 +12,4 @@ let korsugar = prompt('egy kör sugara hossza: ');
 
 console.log((parseInt(korsugar) * parseInt(korsugar)) * Math.PI);	
 console.log(2 * parseInt(korsugar) * Math.PI);
+

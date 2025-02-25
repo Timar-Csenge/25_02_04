@@ -13,3 +13,10 @@ function dobas_mutat()
     let dobas = Math.ceil(Math.random()*6)
     document.getElementById("dobas").innerHTML = dobas;
 }
+
+function lotto()
+{
+    let szam = Math.ceil(Math.random()*90)
+            document.getElementById("szam").innerHTML = szam;
+
+    }

@@ -1,4 +1,4 @@
-//1
+/*//1
 let szam = prompt("1\nadj meg egy számot: ");
 if (szam > -30 && szam < 40) {
     console.log("a szam -30 és 40 között van");
@@ -134,3 +134,33 @@ console.log(kocka);
 
 
 //9
+let xc = prompt("9\nadja meg egy koordináta x pontját: ");
+let yc = prompt("9\nadja meg egy koordináta y pontját: ");
+if (xc > 0 && yc > 0)
+    {
+        console.log("I");
+    }
+else if(xc < 0 && yc > 0)
+    {
+        console.log("II");
+    }
+else if(xc < 0 && yc < 0)
+    {
+        console.log("III");
+    }
+else if(xc > 0 && yc < 0)
+    {
+        console.log("IV");
+    }
+else
+    {
+        console.log("hiba");
+    }*/
+
+
+
+//10
+let aOldal = prompt("10\nadja meg egy háromszög a oldalát: ");
+let bOldal = prompt("10\nadja meg egy háromszög b oldalát: ");
+let cOldal = prompt("10\nadja meg egy háromszög c oldalát: ");
+

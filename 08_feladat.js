@@ -8,6 +8,7 @@ else {
 }
 
 
+
 //2
 let number = prompt("2\nadj meg egy számot: ");
 let number2 = prompt("adj meg egy másik számot: ");
@@ -18,6 +19,7 @@ else if (number < number2)  {
     console.log("a második szám nagyobb");
 }
 else{console.log("egyenlő")};
+
 
 
 //3
@@ -33,6 +35,7 @@ else if(x < 0)
 else{console.log("nulla")};
 
 
+
 //4
 let y = prompt("4\nadj meg egy számot: ");
 if (y % 1 == 0)
@@ -43,18 +46,20 @@ else
     {""}
 
 
+
 //5
 let z = prompt("5\nadj meg egy számot: ");
 let n = prompt("adj meg egy másik számot: ");
 if (z > n)
     {
-        console.log({z} + ">" + {n});
+        console.log(z + ">" + n);
     }
 else if(z < n)
     {
-        console.log({z} + "<" + {n});
+        console.log(z + "<" + n);
     }
 else{console.log("egyenlő")};
+
 
 
 //6
@@ -72,6 +77,7 @@ else if (a >= 19 && a <= 60)
         console.log("dolgozó")
     }
 else{console.log("nyugdíjas")};
+
 
 
 //7
@@ -99,17 +105,32 @@ else
     }
 
 
-/*//8
+
+//8
 let kocka = (Math.ceil(Math.random()*6));
-let jatekos1 = prompt("8\nadj meg egy számot(1. játékos): ");
-let jatekos2 = prompt("adj meg egy számot(2. játékos): ");
+let jatekos1 = prompt("8\nadjon meg egy számot(1. játékos): ");
+let jatekos2 = prompt("adjon meg egy számot(2. játékos): ");
+
+console.log("1. játékos tippje: " + jatekos1);
+console.log("2. játékos tippje: " + jatekos2);
 
 let ertek1 = kocka - parseInt(jatekos1);
 let ertek2 = kocka - parseInt(jatekos2);
 
-if()
+if(ertek1 < ertek2)
     {
-
+        console.log("1. játékos nyert")
     }   
+else if (ertek2 < ertek1)
+    {
+        console.log("2. játékos nyert")
+    }
+else{
+    console.log("döntetlen")
+}
 
-console.log(kocka);*/
+console.log(kocka);
+
+
+
+//9

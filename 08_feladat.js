@@ -1,4 +1,4 @@
-/*//1
+/*/1
 let szam = prompt("1\nadj meg egy számot: ");
 if (szam > -30 && szam < 40) {
     console.log("a szam -30 és 40 között van");
@@ -155,8 +155,7 @@ else if(xc > 0 && yc < 0)
 else
     {
         console.log("hiba");
-    }*/
-
+    }
 
 
 //10
@@ -164,3 +163,25 @@ let aOldal = prompt("10\nadja meg egy háromszög a oldalát: ");
 let bOldal = prompt("10\nadja meg egy háromszög b oldalát: ");
 let cOldal = prompt("10\nadja meg egy háromszög c oldalát: ");
 
+if (aOldal + bOldal > cOldal)
+    {
+        console.log("ez a háromszög szerkezthető");
+    }
+else if (cOldal + bOldal > aOldal)
+    {
+        console.log("ez a háromszög szerkezthető");
+    }
+else if(aOldal + cOldal > bOldal)
+    {
+        console.log("ez a háromszög szerkezthető");
+    }
+else 
+{        
+    console.log("ez a háromszög nem szerkezthető");
+}
+
+
+/*/11
+let numberOne = prompt("10\nkérek egy számot: ");
+let numberTwo = prompt("10\nkérek egy második számot: ");
+let numberThree = prompt("10\nkérek egy harmadik számot: ");

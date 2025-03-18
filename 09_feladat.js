@@ -47,11 +47,20 @@ while (true) {
         }
         console.log(i);
         }
-*/
+
 //7.7 feladatok
 
-//1
 
+//1
 for (let i = 1; i <= 20; i++) {
     console.log(i + "," + Math.sqrt(i));
+    }*/
+
+//3
+for (let i = 1; i < 99; i++) {
+    if (i % 3 == 0) {
+    console.log(i);
     }
+}
+
+//4
